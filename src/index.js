@@ -1,3 +1,1 @@
-import './test.css';
-
-console.log('Testing');
+import Tooltip from './lib-ui/tooltip';
