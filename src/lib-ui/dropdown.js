@@ -1,3 +1,5 @@
+import './styles/dropdown.css';
+
 class Dropdown {
   constructor(container) {
     this.container = container;
