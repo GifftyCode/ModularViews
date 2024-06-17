@@ -1,6 +1,7 @@
 import Tooltip from './lib-ui/tooltip';
 import Dropdown from './lib-ui/dropdown';
 import Tabs from './lib-ui/tabs';
+import Snackbar from './lib-ui/snackbar';
 
 // create a tooltip
 const tooltip = new Tooltip(document.querySelector('.tooltip'));
