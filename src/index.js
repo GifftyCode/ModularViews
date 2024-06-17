@@ -19,3 +19,12 @@ dropdowns.forEach((dropdown) => {
 // create tabs
 const tabs = new Tabs(document.querySelector('.tabs'));
 tabs.init();
+
+// create snackbar
+const snackbar = new Snackbar();
+snackbar.init();
+
+const button = document.querySelector('button');
+button.addEventListener('click', () => {
+  snackbar.show('You just clicked me :)');
+});
